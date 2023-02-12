@@ -9,6 +9,9 @@ body{
 
 .navigation{
     padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    position: fixed; 
 }
 
 .navigation p{
@@ -112,6 +115,7 @@ h2{
     color: white;
     background: #50b9e1;
     padding: 20px 30px;
+    pointer-events: none;
 }
 
 .offers img{
@@ -145,17 +149,19 @@ h2{
 }
 
 .camps img{
-    width: 400px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
+    width: 9 auto;
+    background-size: cover;
 }
 
 .camps li{
     width: 400px;
 }
 
-.camps li:not(:last-child){
+/* .camps li:not(:last-child){
     padding-right: 45px;
-}
+} */
 
 .info div{
     display: inline-block;
@@ -226,3 +232,18 @@ footer ul a i{
     border-radius: 50%;
     padding: 5px;
 }
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1920px) {   
+    body{
+        transform: scale(1.5);
+        transition:transform 1s;
+        transform-origin:631px 0px; /*rotate from 300px from x and 150px bottom */
+    }
+
+    .navigation{
+        padding: 0 20px;
+        position: sticky;
+        top: 0px;
+        position: fixed; 
+    }
+}    

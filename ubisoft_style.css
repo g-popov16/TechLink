@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size:  16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navigation{
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    position: fixed;
+}
+
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    width: 730px;
+}
+li{
+    display: inline-block;
+    
+}
+
+li:not(:last-child){
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+ul{
+    padding: 0px;
+}
+
+
+a:hover{
+    color:#50b9e1;
+    cursor: pointer;
+}
+
+/*site-header*/
+
+.site-header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(Images/ProgrammingIllustration.png)no-repeat;
+    background-size: cover;
+}
+
+.site-header h1{
+    font-size: 66px;
+    color: white;
+    width: 38%;
+    margin: 0;
+    padding: 387px 0 85px 85px;
+}
+
+.site-header button{
+    font-size: 26px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 0 85px 85px;
+}
+
+.site-header button:hover{
+    background:#50b9e1 ;
+    cursor: pointer;
+}
+
+.navigation p span{
+    color: #50b9e1;
+}
+nav{
+    display: inline-block
+}
+
+.offer{
+    color: black;;
+    width: 56%;
+
+    padding: 85px 0;
+}
+
+h2{
+    text-align: left;
+    font-family: "PT Serif", serif;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.offer p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-right: 130px;
+    margin-top: 75px;
+}
+
+.logo img{
+    width: 46%;
+    padding-left: 87px;
+}
+
+.offer_info p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-right: 130px;
+    margin-top: 0px;
+}
+
+.thanks p{
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.form{
+   margin-top: 108px;
+   font-family: sans-serif;
+   font-size: 25px;
+
+}
+
+.form input{
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: top 1px;;
+}
+
+.right {
+    right: 0;
+    position:absolute;
+    top:36px;
+    
+}
+
+.left {
+    left: 0;
+    background-color: blue;;
+}
+
+.buttonHolder{margin-left: 200px}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+body{
+    background-color: #ffc7b9;
+}
+
+a:hover{
+    color:#50b9e1;
+    cursor: pointer;
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1920px) {   
+    body{
+        transform: scale(1.5);
+        transform-origin: 0 0;
+    }
+}    
