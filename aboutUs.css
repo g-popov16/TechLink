@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size:  16px;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: lightgray;;
+}
+
+.navigation{
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    position: fixed; 
+}
+
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    width: 730px;
+}
+
+.navigation p span{
+    color: #50b9e1;
+}
+nav{
+    display: inline-block
+}
+
+li{
+    display: inline-block;
+    
+}
+
+li:not(:last-child){
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+ul{
+    padding: 0px;
+}
+
+
+a:hover{
+    color:#50b9e1;
+    cursor: pointer;
+}
+
+.about p{
+    font-size: 37px;
+    font-family: manrope;
+    text-align: center;
+    
+}
+
+.aboutdiv{
+    padding: 50px;
+    color: ebece9;
+}
+
+.aboutText p{
+    font-size: 20px;
+    font-family: roboto;
+    text-align: center;
+    color: ebece9;
+
+    
+}
+
+@media screen and (min-device-width: 1920px) and (max-device-width: 1920px) {   
+    body{
+        transform: scale(1.5);
+        transition:transform 1s;
+        transform-origin:631px 0px; /*rotate from 300px from x and 150px bottom */
+    }
+
+
+}    

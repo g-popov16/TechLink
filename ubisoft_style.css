@@ -145,6 +145,17 @@ h2{
     box-sizing: border-box;
 }
 
+.form select{
+    margin-bottom: 50px;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white ;
+}
+
 .form input[type="submit"]{
     background-color: #4CAF50;
     color: white;
@@ -185,7 +196,7 @@ h2{
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 body{
-    background-color: #ffc7b9;
+    background-color: lightgray;
 }
 
 a:hover{
